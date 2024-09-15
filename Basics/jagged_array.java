@@ -1,3 +1,4 @@
+
 public class jagged_array /*array with unequal count of elements*/{
     public static void main(String[] args){
         int a[][] = {
