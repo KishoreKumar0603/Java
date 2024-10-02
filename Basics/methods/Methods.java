@@ -28,6 +28,14 @@ class fun{
     public float div(float a, float b){
         return a/b;
     }
+
+    //Recursion Function 
+    public int fact(int num){
+        if (num == 1)
+            return 1;
+        else
+            return (num * fact(num - 1));
+    }
 }
 public class Methods {
     
@@ -39,6 +47,8 @@ public class Methods {
         System.out.println(mul);
         float div = s.div(10, 2);
         System.out.println(div);
+        int fact = s.fact(5);
+        System.out.println(fact);
     }
 }
 
