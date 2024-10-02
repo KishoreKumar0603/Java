@@ -12,12 +12,33 @@ class fun{
 
 
     }
+
+    //No Return with Arguement
+    public void sub(int a , int b){
+        System.out.println("Subtraction of 2nums : "+(a - b));
+    }
+
+    //Return without Arguement
+    public int mul(){
+        int a = 29,b=2;
+        return a*b;
+    }
+
+    //Return with Arguement
+    public float div(float a, float b){
+        return a/b;
+    }
 }
 public class Methods {
     
     public static void main(String[] args){
         fun s = new fun();
         s.add();
+        s.sub(10, 5);
+        int mul = s.mul();
+        System.out.println(mul);
+        float div = s.div(10, 2);
+        System.out.println(div);
     }
 }
 
