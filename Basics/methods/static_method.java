@@ -1,3 +1,4 @@
+package methods;
 class mathematical{
     public static int power(int a, int b){
         int pow =1;
@@ -7,7 +8,7 @@ class mathematical{
         return pow;
     }
 }
-public class static_member {
+public class static_method {
     public static void main(String[] args) {
         System.out.println(mathematical.power(2,3));
     }

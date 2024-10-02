@@ -1,3 +1,4 @@
+package methods;
 
 public class math_method {
     public static void main(String[] args) {
