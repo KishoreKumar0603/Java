@@ -1,5 +1,5 @@
 
-public class ternary {
+public class Ternary {
     public static void main(String[] args) {
         
         int a = 100,b=20, max;

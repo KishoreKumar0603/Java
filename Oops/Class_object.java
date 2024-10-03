@@ -12,7 +12,7 @@ class Rectangle{
         return a;
     }
 }
-public class class_object {
+public class Class_object {
     public static void main(String[] args){
         Rectangle object_1 = new Rectangle();
         object_1.length=10;

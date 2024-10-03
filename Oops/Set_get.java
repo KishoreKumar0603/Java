@@ -29,7 +29,7 @@ class ShapeRectangle{
         return a;
     }
 }
-public class set_get {
+public class Set_get {
     public static void main(String[] args){
         ShapeRectangle obj1 = new ShapeRectangle();
         /* obj1.length = 0; //Show error because the var length is private for this we need getter & setter */

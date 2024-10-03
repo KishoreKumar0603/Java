@@ -6,7 +6,7 @@
         Narrowing Casting
             double -> float -> long -> int -> char -> short -> byte
  */
-public class type_casting {
+public class Type_casting {
     public static void main(String[] args) {
         int a = 10;
         double b = a;

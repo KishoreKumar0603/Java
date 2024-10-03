@@ -1,4 +1,4 @@
-public class string_buffer_builder {
+public class String_buffer_builder {
     public static void main(String[] args){
         StringBuffer buffer = new StringBuffer("kishore");
         System.out.println(buffer);

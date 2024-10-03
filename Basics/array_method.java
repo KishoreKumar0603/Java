@@ -1,4 +1,4 @@
-public class array_method {
+public class Array_method {
     public static int[] sort(int a[]){
         int temp;
         for(int i = 0;i < a.length ; i++){

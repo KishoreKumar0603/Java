@@ -1,5 +1,5 @@
 
-public class jagged_array /*array with unequal count of elements*/{
+public class Jagged_array /*array with unequal count of elements*/{
     public static void main(String[] args){
         int a[][] = {
             {10,10,12,12},

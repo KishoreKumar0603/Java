@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class group_switch {
+public class Group_switch {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
         Scanner in  = new Scanner(System.in);
