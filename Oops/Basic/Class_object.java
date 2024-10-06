@@ -1,4 +1,4 @@
-package Oops;
+package Oops.Basic;
 class Rectangle{
     int length;
     int width;

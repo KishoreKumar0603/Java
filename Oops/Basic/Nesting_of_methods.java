@@ -1,4 +1,4 @@
-package Oops;
+package Oops.Basic;
 //Nesting of methods in java
 class demo
 {

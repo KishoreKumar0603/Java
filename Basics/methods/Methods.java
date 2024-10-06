@@ -10,7 +10,7 @@ class fun{
         int b = in.nextInt();
         System.out.println("Sum of 2nums : "+ (a+b));
 
-
+        in.close();
     }
 
     //No Return with Arguement

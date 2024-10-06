@@ -1,4 +1,4 @@
-package Oops;
+package Oops.Basic;
 
 //getter and setter in oops (data hiding)
 class ShapeRectangle{

@@ -1,4 +1,4 @@
-package Oops;
+package Oops.Basic;
 //array of objects in java 
 class Student
 {

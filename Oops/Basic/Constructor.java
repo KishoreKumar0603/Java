@@ -1,4 +1,4 @@
-package Oops;
+package Oops.Basic;
 //Constructor in java
 class RectangleShape{
     int length,width;
