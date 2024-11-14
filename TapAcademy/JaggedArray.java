@@ -32,7 +32,7 @@ class JaggedArray
 
     public static void D3Jagged()
     {
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int[][][] arr = new int[2][][];
         arr[0] = new int[2][];
         arr[1] = new int[3][];
@@ -47,7 +47,7 @@ class JaggedArray
             {
                 for(int k =0;k<arr[i][j].length;k++)
                 {
-                    arr[i][j][k] = scan.nextInt();
+                    arr[i][j][k] = scanner.nextInt();
                 }
             }
         }
@@ -63,6 +63,7 @@ class JaggedArray
             }
             System.out.println();
         }
+        scanner.close();
     }
     public static void main(String[] args) {
         D3Jagged();
