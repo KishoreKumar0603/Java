@@ -12,7 +12,7 @@ public class Static_Block {
     }
     public static void main(String[] args) {
         need a = new need();
-        System.out.println("Main func");
+        System.out.println("Main func"+a);
     }
     static {
         System.out.println("Second static");
