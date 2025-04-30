@@ -1,6 +1,6 @@
 package Oops.NestedInnerClass;
 
-class Outer {
+class outers {
     static int x=10;
     static int y=19;
     static class inner {
@@ -13,7 +13,7 @@ class Outer {
 }
 public class Static_inner_Class {
  public static void main(String[] args) {
-    Outer.inner a = new Outer.inner();
+    outer.inner a = new outers.inner();
     a.display();
  }    
 }

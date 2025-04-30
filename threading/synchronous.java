@@ -1,6 +1,4 @@
 package threading;
-
-
 class Table{
     synchronized void printTable(int n){
         for(int i=1;i<=5;i++)
@@ -17,7 +15,7 @@ class Table{
     }
 }
 
-public class synchronous {
+class Synchronous {
     public static void main(String[] args) {
         Table table = new Table();
         // table.printTable(5);
@@ -38,3 +36,4 @@ public class synchronous {
         t2.start();
     }
 }
+

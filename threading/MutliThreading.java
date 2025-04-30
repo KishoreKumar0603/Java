@@ -50,6 +50,7 @@ public class MutliThreading {
         t1.start(); //run
 
         Thread t2 = new Thread(num);
+        
         t2.start();
 
         t1.join();

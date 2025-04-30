@@ -1,6 +1,6 @@
 package Oops.Inheritance;
 //single inheritance
-class Father  //Base class
+class father  //Base class
 {
     public void house()
     {
@@ -8,7 +8,7 @@ class Father  //Base class
     }
 }
 
-class son extends Father //derived class
+class son extends father //derived class
 {
     public void car()
     {

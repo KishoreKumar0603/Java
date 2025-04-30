@@ -1,7 +1,7 @@
 package Oops.NestedInnerClass;
 //Nested inner class in java
 
-class Outer{
+class outer {
     int a =50;
     class inner{
         int b = 45;
@@ -19,11 +19,11 @@ class Outer{
 }
 public class NestedClass {
     public static void main(String[] args) {
-        Outer a = new Outer();
+        outer a = new outer();
         a.outerDisplay();
         //creating object for inner class
         System.out.println("\n\nInner class\n--------------");
-        Outer.inner o = new Outer().new inner();
+        outer.inner o = new outer().new inner();
         o.innerDisplay();
     }
 }

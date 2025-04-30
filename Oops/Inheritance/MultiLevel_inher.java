@@ -16,7 +16,7 @@ class Father extends Grandfather
         System.out.println("10Acres of Land own by father");
     }
 }
-class Son extends Father
+class Son extends father
 {
     public void car()
     {
