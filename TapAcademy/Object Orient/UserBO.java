@@ -1,3 +1,4 @@
+
 class User {
     private Integer id;
     private String userName;
@@ -44,8 +45,8 @@ class User {
     
 }
 
-public class UserBO {
-    public void getUser()
+class UserBO {
+    public static void main(String[] args)
     {
         User[] user = new User[5];
         user[0] = new User(1,"Lohieth","634q2748e");
@@ -54,16 +55,15 @@ public class UserBO {
         user[3] = new User(4,"Nithin","6969");
         user[4] = new User(5,"Lohieth Aalu","634q2748e");
 
+
+        User first = user[4];
+
+        System.out.println(user[4].getUserName());
+        System.out.println(first.getUserName());
+
     }
     
 }
 
 
 
-
-class Encapsulation {
-    public static void main(String[] args) {
-        
-    }
-    
-}
