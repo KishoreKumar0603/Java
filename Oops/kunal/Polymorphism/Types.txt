@@ -1,0 +1,9 @@
+Types of Polymorphism
+    |
+    |---> compile time Polymorphism / static Polymorphism
+    |            |
+    |            |---> Method Overloading
+    |
+    |---> RunTime Polymorphism / Dynamic Polymorphism
+                    |
+                    |---> Method Overriding
