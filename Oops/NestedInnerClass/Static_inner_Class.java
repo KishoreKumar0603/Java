@@ -13,7 +13,7 @@ class outers {
 }
 public class Static_inner_Class {
  public static void main(String[] args) {
-    outer.inner a = new outers.inner();
-    a.display();
+    // outer.inner a = new outers.inner();
+    // a.display();
  }    
 }

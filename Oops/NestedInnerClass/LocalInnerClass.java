@@ -18,7 +18,7 @@ class Outer
 public class LocalInnerClass {
     public static void main(String[] args) {
         outer a = new outer();
-        a.nes();
+        // a.nes();
         // Inner a = new Inner(); //it will show error 
     }
 }

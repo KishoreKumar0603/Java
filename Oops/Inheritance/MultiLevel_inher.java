@@ -27,7 +27,7 @@ public class MultiLevel_inher {
     public static void main(String[] args)
     {
         Son o = new Son();
-        o.land();
+        // o.land();
         o.car();
         o.house();
     }
