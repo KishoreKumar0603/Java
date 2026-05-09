@@ -12,7 +12,7 @@ class Static_test
     static void display()
     {
         System.out.println("A : "+a);
-        System.out.println("B : "+b);//error 
+//        System.out.println("B : "+b);//error
     }
 }
 public class Static_keyword {
